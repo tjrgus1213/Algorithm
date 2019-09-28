@@ -47,7 +47,7 @@ int main(int argc, char** argv)
 		cout << max_point << endl;
 
 	}
-	return 0;//정상종료시 반드시 0을 리턴해야합니다.
+	return 0;
 }
 
 int start_pinball(vector<vector<int>> &ary, int x, int y, pair<int, int> d) {

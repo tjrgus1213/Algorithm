@@ -82,5 +82,5 @@ int main(int argc, char** argv)
 		cout << "#" << test_case << " ";
 		cout << min + 1 << endl;
 	}
-	return 0;//정상종료시 반드시 0을 리턴해야합니다.
+	return 0;
 }

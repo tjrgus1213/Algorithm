@@ -24,7 +24,7 @@ int main(int argc, char** argv)
 		cout << "#" << test_case << " " << function(ary, 0) << endl;
 
 	}
-	return 0;//정상종료시 반드시 0을 리턴해야합니다.
+	return 0;
 }
 
 int function(vector<vector<int>> ary, int cnt) {
