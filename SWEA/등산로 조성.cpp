@@ -2,19 +2,21 @@
 
 using namespace std;
 
-int N, K;
-int ary[8][8];
-int check[8][8];
-int plusx[4] = { -1, 1, 0, 0 };
-int plusy[4] = { 0, 0, -1, 1 };
-
 struct node {
 	int x, y;
 	int road;
 	int h;
 	bool is;
 };
+
+int N, K;
+int ary[8][8];
+int check[8][8];
+int plusx[4] = { -1, 1, 0, 0 };
+int plusy[4] = { 0, 0, -1, 1 };
+
 int function(node top);
+
 int main(int argc, char** argv)
 {
 	int test_case;
