@@ -10,6 +10,7 @@ int pipe[8][5] = { { 0, 0, 0, 0, 0 },{ 0, 1, 2, 3, -1 },{ 0, 1, -1, 0, 0 },{ 2, 
 int plusx[4] = { -1, 1, 0, 0 };
 int plusy[4] = { 0, 0, -1, 1 };
 int find_way(int x, int y, int time);
+
 int main(int argc, char** argv)
 {
 	int test_case;
